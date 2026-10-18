@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Personal</title>
+    <!-- Importamos una fuente tierna y redondeada de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #fdf2a6; /* Amarillo Pompompurin */
+            color: #4a2e15; /* Café oscuro de la boina */
+            font-family: 'Quicksand', sans-serif;
+            margin: 0;
+            padding: 30px 15px;
+            display: flex;
+            justify-content: center;
+            background-image: radial-gradient(#ffe066 15%, transparent 15%), radial-gradient(#ffe066 15%, transparent 15%);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+        }
+
+        /* Contenedor tipo tarjeta */
+        .contenedor {
+            background-color: #ffffff;
+            border: 4px solid #4a2e15;
+            border-radius: 25px;
+            padding: 40px;
+            max-width: 650px;
+            box-shadow: 10px 10px 0px #ffcc00; /* Sombra amarilla fuerte */
+        }
+
+        /* Títulos */
+        h1 {
+            color: #d67a00; /* Color caramelo cálido */
+            text-align: center;
+            border-bottom: 4px dashed #ffcc00;
+            padding-bottom: 15px;
+            font-size: 2.2em;
+        }
+
+        h2 {
+            color: #4a2e15;
+            background-color: #fff4ba;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 15px;
+            border: 2px solid #ffcc00;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+
+        /* Listas decoradas */
+        ul {
+            list-style-type: none; /* Quitamos los puntos por defecto */
+            padding: 0;
+        }
+
+        li {
+            background-color: #fffae6;
+            margin: 10px 0;
+            padding: 12px;
+            border-left: 6px solid #d67a00;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+
+        /* Estilo para tu foto */
+        .foto-perfil {
+            display: block;
+            margin: 20px auto;
+            border-radius: 45%; /* Hace la foto un círculo perfecto */
+            border: 6px solid #4a2e15;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Enlaces (Links) */
+        a {
+            color: #d67a00;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #4a2e15;
+            text-decoration: underline;
+        }
+        
+        /* Decoración extra */
+        .icono {
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: -15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="icono">🍮🐶</div>
+        
+        <!-- Encabezado principal con tu nombre -->
+        <h1>Paola Adriana Ulloa Rivera</h1>
+
+        <!-- Párrafo de presentación personal -->
+        <h2>Sobre mí</h2>
+        <p>Soy estudiante de Ingeniería de Sistemas en Managua, Nicaragua. Me esfuerzo en todas mis clases para desarrollar mis habilidades en el área de software.</p>
+
+        <!-- Lista de intereses o habilidades -->
+        <h2>Mis Habilidades e Intereses</h2>
+        <ul>
+            <li>💻 <strong>Tecnologías:</strong> Node.js, NestJS, React, Supabase y Docker.</li>
+            <li>⚙️ <strong>Herramientas:</strong> Pruebas de API con Bruno, OpenPLC y bases de datos.</li>
+            <li>🏋️‍♀️ <strong>Actividad Física:</strong> Entrenamiento de fuerza en el gimnasio.</li>
+            <li>🏍️ <strong>Pasatiempos:</strong> Leer mangas, hornear y  salir con mis cercanos</li>
+        </ul>
+
+        <!-- Imagen representativa -->
+        <h2>Foto de mi mascota</h2>
+        <!-- Cambia "gumi.jpeg" por el nombre de tu foto si la tienes en la misma carpeta -->
+        <img class="foto-perfil" src="gumi.jpeg" alt="Mi foto de perfil">
+
+        <!-- Enlaces a redes o sitios favoritos -->
+        <h2>Mis Sitios Favoritos</h2>
+        <ul>
+            <li>🔗 <a href="https://github.com/paou03" target="_blank">Mi perfil de GitHub</a></li>
+            <li>🎵 <a href="https://open.spotify.com/intl-es/track/0R7BWzdXe7BVtGgFV6jqay?autoplay_ok=1" target="_blank">Mi cancion favorita</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
